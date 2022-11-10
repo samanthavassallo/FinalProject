@@ -8,7 +8,7 @@
 
 ## If you plan to collaborate with one or two classmates, what are their names?
 
-Alexander Clements (me) and Samantha Vassallo
+Alexander Clements (me) , Samantha Vassallo , and Natalyah Douglass
 
 ## Do you have any questions of your own?
 
