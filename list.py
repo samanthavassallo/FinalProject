@@ -33,3 +33,82 @@ TV4-7 = ["Breaking Bad", "The sopranos", "The Wonder Years", "House Of Cards", "
 TV8 = ["Game of thrones", "Friends", "Seinfeld", "The X-Files", "Family Guy", "The Simpsons", "Homeland", " 24", "Two and Half of Men", "Dexter", "The Walking Dead", "Brooklyn Nine-Nine", "Bobs Burgers", "House", "ER", "The Big Bang Theory", "South Park", "Beavis and Butt-Head", "The Office", "Everybody Loves Raymond", "Law & Order: Special Victims Unit ", "American Dad!", "That '70s Show"", Mad Men", "American Horror Story", "Baywatch", "Futurama", "Supernatural", "How I Met Your Mother", "Beverly Hills, 90210", "Modern Family", "SpongeBob SquarePants"]
 
 genre = ["Drama", "Crime", "Action", "Adventure", "History", "Sci-Fi", "Biography", "Romance", "Western", "Fantasy", "Horror", "Animation", "Family", "War", "Comedy", "Mystery", "Thriller"]
+
+def movie():
+    ans = input("Would you like to watch a movie or a TV show (Please answer Movie or TV show)")
+
+    while ans == ("Movie"):
+        q = input(("What genre do you want to watch?(Please capatlize the first letter)"))
+        if q not in genre:
+            print("This genre is not incuded please select a diffrent one.")
+
+        else:
+            if Drama:
+                print("Your movie is", random.choice(Drama))
+                break
+            else:
+                if Crime:
+                    random.choice(Crime)
+                    break
+                else:
+                    if Action:
+                        print("Your movie is", random.choice(Action))
+                        break
+                    else:
+                        if Scifi:
+                            print("Your movie is", random.choice(Scifi))
+                            break
+                        else:
+                            if Adventure:
+                                print("Your movie is",random.choice(Adventure))
+                                break
+                            else:
+                                if Biography:
+                                    print("Your movie is", random.choice(Biography))
+                                    break
+                                else:
+                                    if Romance:
+                                        print("Your movie is", random.choice(Romance))
+                                        break
+                                    else:
+                                        if Fantasy:
+                                            print("Your movie is", random.choice(Fantasy))
+                                            break
+                                        else:
+                                            if Horror:
+                                                print("Your movie is", random.choice(Horror))
+                                                break
+                                            else:
+                                                if Animation:
+                                                    print("Your movie is", random.choice(Animation))
+                                                    break
+                                                else:
+                                                    if Family:
+                                                        print("Your movie is", random.choice(Family))
+                                                        break
+                                                    else:
+                                                        if War:
+                                                            print("Your movie is", random.choice(War))
+                                                            break
+                                                        else:
+                                                            if Comedy:
+                                                                print("Your movie is", random.choice(Comedy))
+                                                                break
+                                                            else:
+                                                                if Mystery:
+                                                                    print("Your movie is", random.choice(Mystery))
+                                                                    break
+                                                                else:
+                                                                    if Thriller:
+                                                                        print("Your movie is", random.choice(Thriller))
+                                                                        break
+                                                                    else:
+                                                                        if Western:
+                                                                            print("Your movie is", random.choice(Western))
+                                                                            break
+                                                                        else:
+                                                                            break
+                                                                        
+
+
+movie()                
