@@ -108,4 +108,28 @@ def movie():
                                                                             break
                                                                         else:
                                                                             break
-    
+        while ans == ("TV show"):
+        s = input("How many season would you like the show to be we have the selction of 1-3, 4-7, and 8+, please answer using those")
+        if s == "1-3":
+            print("Your show is", random.choice(TV13))
+            break
+        else:
+            if s == "1-3":
+                print("Your show is", random.choice(TV13))
+                break
+            else:
+                if s == "4-7":
+                    print("Your show is", random.choice(TV47))
+                    break
+                else:
+                    if s == "8+":
+                        print("Your show is", random.choice(TV8))
+                        break
+                
+        
+            
+   
+
+
+movie()                
+
